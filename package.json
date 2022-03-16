@@ -1,0 +1,17 @@
+{
+  "name": "cda-knex-16-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "cd db && knex migrate:latest",
+    "drop": "cd db && knex migrate:rollback"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^1.0.4",
+    "mysql": "^2.18.1"
+  }
+}
